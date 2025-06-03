@@ -3,8 +3,8 @@ function AppFooter() {
     <footer className="footer">
       <div className="bg-footer">
         <div className="footer-list">
-          <div class="footer-links">
-            <div class="footer-column">
+          <div className="footer-links">
+            <div className="footer-column">
               <h3>DC COMICS</h3>
               <ul>
                 <li>
@@ -40,7 +40,7 @@ function AppFooter() {
               </ul>
             </div>
 
-            <div class="footer-column">
+            <div className="footer-column">
               <h3>DC</h3>
               <ul>
                 <li>
@@ -79,7 +79,7 @@ function AppFooter() {
               </ul>
             </div>
 
-            <div class="footer-column">
+            <div className="footer-column">
               <h3>SITES</h3>
               <ul>
                 <li>
