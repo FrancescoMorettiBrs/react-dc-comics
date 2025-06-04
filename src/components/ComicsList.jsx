@@ -1,3 +1,4 @@
+import Card from "./Card.jsx";
 import data from "../../comics.js";
 
 const ComicsList = () => {
@@ -8,11 +9,8 @@ const ComicsList = () => {
           <div className="row-main">
             <div className="container-main">
               <h4 className="title-main">CURRENT SERIES</h4>
-              {data.map((curData, index) => (
-                <div key={`products-${index}`} className="card">
-                  <img src={curData.thumb} alt="Thumb" />
-                  <p className="title-comics"> {curData.series} </p>
-                </div>
+              {data.map((curCard) => (
+                <Card key={curCard.id} thumb={curCard.thumb} series={curCard.series} />
               ))}
             </div>
           </div>
